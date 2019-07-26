@@ -25,5 +25,5 @@ function addUser(req, res) {
     });
   }
   database.push(req.body);
-  return res.status(200).json(req.body);
+  return res.status(201).json(req.body);
 }
